@@ -15,7 +15,7 @@ import ListView from 'deprecated-react-native-listview';
 const { width, height } = Dimensions.get('window')
 import io from 'socket.io-client';
 import _ from 'lodash'
-const socket = io.connect('http://192.168.1.5:5555', {transports: ['websocket']});
+const socket = io.connect('http://192.168.1.7:5555', {transports: ['websocket']});
 
 /*************** WebRTC Start ******************/
 
